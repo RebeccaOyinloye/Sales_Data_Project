@@ -40,6 +40,8 @@ Explored Sales Data to answer key questions including:
    
 ### Data Analysis
 
+Some code/features i worked with, such as: 
+
 - Created a new column TotalSales/Total revenue
 ```Excel
 =quantity * unit price
@@ -63,4 +65,5 @@ Select Top 1 product, sum(Total_Sales_Total_Revenue) as HighestSelling from Tota
 Group by product
 ```
 
+### Result/Findings
 
