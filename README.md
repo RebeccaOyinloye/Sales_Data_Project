@@ -67,3 +67,7 @@ Group by product
 
 ### Result/Findings
 
+The result of the analysis are summarized as follows: The Retail Store sales fluctuate throughout the year, peaking consistently in February. In sales and revenue Shoes and the South region are the best performing. Shirts has the highest average sales while South region alsp boasts the highest average sales. Notably, 2023 sales exceeded 2024 sales by 9.9%, although 2024 is yet to conclude.
+
+
+
