@@ -6,7 +6,17 @@
 
 [Tools Used](#tools-used)
 
-[Data Cleaning And Preparation](#data-cleaning-and-preparation)
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Result and Findings](#result-and-findings)
+
+[Recommendations](#recommendations)
+
+[Limitations](#limitations)
 
 ### Project Overview
 
@@ -28,7 +38,7 @@ Sales Data: The primary dataset used for this analysis is the 'LITA CAPSTONE DAT
  
 - Github - For Portfolio Building
 
-### Data Cleaning And Preparation
+### Data Cleaning and Preparation
 
 In the initial Preparation phase i performed the following tasks: 
 1. Data loading and inspection
@@ -73,7 +83,7 @@ Select Top 1 product, sum(Total_Sales_Total_Revenue) as HighestSelling from Tota
 Group by product
 ```
 
-### Result/Findings
+### Result and Findings
 
 The result of the analysis are summarized as follows: 
 
