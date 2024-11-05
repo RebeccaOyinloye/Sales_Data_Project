@@ -67,7 +67,9 @@ Group by product
 
 ### Result/Findings
 
-The result of the analysis are summarized as follows: The Retail Store sales fluctuate throughout the year, peaking consistently in February. In sales and revenue Shoes and the South region are the best performing. Shirts has the highest average sales while South region alsp boasts the highest average sales. Notably, 2023 sales exceeded 2024 sales by 9.9%, although 2024 is yet to conclude.
+The result of the analysis are summarized as follows: 
+
+The Retail Store sales fluctuate throughout the year, peaking consistently in February. In sales and revenue Shoes and the South region are the best performing. Shirts has the highest average sales while South region alsp boasts the highest average sales. Notably, 2023 sales exceeded 2024 sales by 9.9%, although 2024 is yet to conclude.
 
 ### Recommendations 
 
@@ -79,3 +81,6 @@ Based on the sales analysis and to capitalize on the insight and findings, I rec
 4. Explore targeted campaigns and opportunities to grow sales in the underperforming west region.
 5. Implement a customer segmentation strategy to effectively target high lifetime value customers.
 
+### Limitations
+
+Notable limitations were minimized due to the dataset's cleanliness as  no null or blank columns were present, ensuring data integrity However, removing duplicates from the dataset initially may have potentially impacted the accuracy of the analysis.
