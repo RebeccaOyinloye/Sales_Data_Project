@@ -1,11 +1,12 @@
 # Sales Perfomance Analysis 
 
-## Table of Content 
+[Project Overview](#project-overview)
 
-- [Project Overview](project-overview)
-- [Data Source](data-source)
-- [Tools Used](tools-used)
-- [Data Cleaning/Preparation](data-cleaning/preparation)
+[Data Source](#data-source)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning And Preparation](#data-cleaning-and-preparation)
 
 ### Project Overview
 
@@ -27,7 +28,7 @@ Sales Data: The primary dataset used for this analysis is the 'LITA CAPSTONE DAT
  
 - Github - For Portfolio Building
 
-### Data Cleaning/Preparation
+### Data Cleaning And Preparation
 
 In the initial Preparation phase i performed the following tasks: 
 1. Data loading and inspection
