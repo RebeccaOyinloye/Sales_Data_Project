@@ -1,5 +1,12 @@
 # Sales Perfomance Analysis 
 
+## Table of Content 
+
+- [Project Overview](project-overview)
+- [Data Source](data-source)
+- [Tools Used](tools-used)
+- [Data Cleaning/Preparation](data-cleaning/preparation)
+
 ### Project Overview
 
 This Data Analysis project analyzes the sales data of a retail store to provide insights into the Sales performance over the past year. Utilizing Excel, SQL, and Power BI, the analysis will identify top-selling products, regional trends and monthly Sales pattern. By analyzing various aspect of the sales data, this project aims to uncover trends, make data-driven recommedations, and gain a deeper understanding of the company's performance, ultimately designning an interactive Power BI dashboard for stakeholder decision making.  
@@ -8,7 +15,7 @@ This Data Analysis project analyzes the sales data of a retail store to provide 
 
 Sales Data: The primary dataset used for this analysis is the 'LITA CAPSTONE DATASET' provided by The Incubator Hub. This dataset contains information about sales transactions made by the retail store. 
 
-### Tools
+### Tools Used
 
 - Excel
   1. For Data Cleaning
