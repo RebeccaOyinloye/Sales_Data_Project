@@ -28,7 +28,7 @@ This Data Analysis project analyzes the sales data of a retail store to provide 
 
 ### Data Source 
 ---
-Sales Data: The primary dataset used for this analysis is the 'LITA CAPSTONE DATASET' provided by The Incubator Hub. This dataset contains information about sales transactions made by the retail store. 
+The primary dataset used for this analysis 'Sales Data' was obtained from the 'LITA CAPSTONE DATASET' provided by The Incubator Hub. This dataset contains information about sales transactions made by the retail store. 
 
 ### Tools Used
 ---
@@ -51,20 +51,24 @@ In the initial Preparation phase i performed the following tasks:
 
 ### Exploratory Data Analysis
 ---
-Explored Sales Data to answer key questions including: 
+Explored Sales Data to answer key questions and extract key insights to answer quwstions asked including: 
 
- - which product is the best-selling? 
- - what is the overall sales trend?
- - Which region has the highest sales?
- - what is the total revenue?
- - Who are the Top 5 customer by total sales?
- - Which region have the most loyal customers?
-   
+ - What is the overall sales trend?
+ - What is the totalsales by product?
+ - What is the average sale per product?
+ - Retrieve total sales for each product category?
+ - Find the number of sales transaction in each category?
+ - Find the highest selling product by total sales value?
+ - Calculate total revenue per product?
+ - Find top 5 customers by total purchase amount?
+ - Calculate the percentage of total sales contributed by each region?
+ - identify product with no sale in the last quarter?
+
 ### Data Analysis
 ---
-Some code/features i worked with, such as: 
-
-- Created a new column TotalSales/Total revenue
+This include some of the code and features i worked with, such as: 
+1. Excel
+- pivot table
 ```Excel
 =quantity * unit price
 ```
@@ -75,7 +79,7 @@ Some code/features i worked with, such as:
 =Averageif(product, shoes, TotalSales/TotalRevenue
 ```
 
-Data Analysis Query including: 
+2. SQL 
 - Retrieve total sales for each product category 
 ```SQL
 Select Product, Sum(Total_Sales_Total_Revenue) As TotalSales From lita_capstone_project
@@ -86,6 +90,49 @@ Group by Product
 Select Top 1 product, sum(Total_Sales_Total_Revenue) as HighestSelling from Total_Sales_Total_Revenue
 Group by product
 ```
+3. Power BI
+- Conditional columns
+- Measures
+```DAX
+Average Sales/Reveue = AVERAGE('SalesData working sheet' [Total Revnue / Total Sales])
+```
+```DAX
+Average Quantity = AVERAGE('SalesData working sheet' [Quantity])
+```
+### Visualizations
+
+- Pivot Table Summarizations
+
+![salespivot_table](https://github.com/user-attachments/assets/4178b356-1af5-46b4-b1fb-b19766d76dbe)
+
+![sales_data_pivottable](https://github.com/user-attachments/assets/f67d3f59-3e66-48b7-a03f-038cfec69178)
+
+![pivottable_salesdata](https://github.com/user-attachments/assets/cdf2a593-fb48-484e-9166-4507a684bf0f)
+
+
+- Structured Query Language(SQL) Summarizations
+
+![query_s1](https://github.com/user-attachments/assets/67b8942b-bad1-421d-a5ee-ee7260d342a2)
+
+![query_s2](https://github.com/user-attachments/assets/3c5bb6cb-8c8b-4fb5-b504-af6cca813ed9)
+
+![query_s3](https://github.com/user-attachments/assets/f772ee32-2a36-460b-ab38-6c483a2214ec)
+
+![query_s4](https://github.com/user-attachments/assets/e6a19873-c89d-47a1-864a-e484bc4767e9)
+
+- Sales Dashboard
+
+![Salesdashboard](https://github.com/user-attachments/assets/b7f27c1d-e58d-4363-b4f5-42e173986285)
+
+- Sales Trends and Overview
+
+![Sales_overview](https://github.com/user-attachments/assets/5b89b0fc-96a8-47e9-8972-b11ffb81e720)
+
+- Sales Data Tables
+
+![Sales_data_tables](https://github.com/user-attachments/assets/b27e0303-cbd7-4678-8dfa-259afb239988)
+
+
 
 ### Result and Findings
 ---
