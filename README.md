@@ -16,6 +16,8 @@
 
 [Data Analysis](#data-analysis)
 
+[Visualizations](#visualizations)
+
 [Result and Findings](#result-and-findings)
 
 [Recommendations](#recommendations)
@@ -99,6 +101,7 @@ Average Sales/Reveue = AVERAGE('SalesData working sheet' [Total Revnue / Total S
 ```DAX
 Average Quantity = AVERAGE('SalesData working sheet' [Quantity])
 ```
+
 ### Visualizations
 
 - Pivot Table Summarizations
