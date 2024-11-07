@@ -112,7 +112,11 @@ Average Quantity = AVERAGE('SalesData working sheet' [Quantity])
 
 ![pivottable_salesdata](https://github.com/user-attachments/assets/cdf2a593-fb48-484e-9166-4507a684bf0f)
 
+- Metrics with Excel formula and Growth rate
 
+![Sales metric](https://github.com/user-attachments/assets/6593d462-42f4-4165-94c3-5749d8807210)
+
+  
 - Structured Query Language(SQL) Summarizations
 
 ![query_s1](https://github.com/user-attachments/assets/67b8942b-bad1-421d-a5ee-ee7260d342a2)
